@@ -26,6 +26,7 @@ Then you need to upload the ino file located in arduino folder.
 
 Now you need to clone this repo in your workspace and launch the node:
 ```
+$ git clone https://github.com/miguelgonrod/Ros-Quadruped
 $ catkin_make
 $ chmod u+x /scripts/mov.py
 $ rosrun rosserial_python serial_node.py /dev/ttyUSB0
