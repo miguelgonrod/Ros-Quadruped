@@ -4,6 +4,7 @@
 * [Description](#description)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Licence](#licence)
 
 ## Description
 In this repository you will find my files to control my own quadruped robot using ROS, this is the rosserial branch. This project was made by me using ROS Noetic as my final project to Junior I in the branch RAS Javeriana.
@@ -30,3 +31,6 @@ $ chmod u+x /scripts/mov.py
 $ rosrun rosserial_python serial_node.py /dev/ttyUSB0
 $ rosrun ardu_arania mov.py
 ```
+
+## Licence
+Ros-Quadruped is available under the BSD-3-Clause license. See the LICENSE file for more details.
